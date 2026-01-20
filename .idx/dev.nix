@@ -8,5 +8,6 @@
     autorestic
     sudo-rs
     pkgs.openssh
+    pkgs.nox
   ];
 }
