@@ -3,7 +3,7 @@
 {
   packages = with pkgs; [
     sudo
-    python311
+    python39
     busybox
     autorestic
     sudo-rs
