@@ -8,8 +8,7 @@ const SignupForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
-
+    
     fetch("http://localhost:8080/users", {
       method: "POST",
       body: JSON.stringify({ email: formData.email, password: formData.password }),

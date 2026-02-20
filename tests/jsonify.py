@@ -37,4 +37,5 @@ def sinup():
     return jsonify({"message": "User signed up succesfully"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Running in debug mode is a security risk in production
+    app.run(debug=False)
